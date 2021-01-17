@@ -1,0 +1,230 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF9F4;
+}
+header{
+    background-color: #FFF9F4;
+}
+
+
+.nav-link{
+    color: #3C3C3C;
+    font-family:  'Roboto', sans-serif ;
+}
+.Mark{
+    color:#FA804C;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+.Infinity{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.first-image{
+    width: 100%;
+    margin-top: 100px;
+}
+.nike-description p{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 400;
+    width: 370px;
+}
+.button{
+    background-image: linear-gradient(blue,rgb(21, 21, 158));
+    opacity: .8;
+    width: 170px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card-img img{
+    margin: 0 auto;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+}
+.card-body h4{
+    font-size: 24px;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.card-body p{
+    color: #3E3E3E;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.card-body h6{
+    color: #FA804C;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.Buy-Now-Casual{
+    margin-left: 50px;
+}
+main{
+    margin-top:100px;
+}
+main h5{
+    color: #363958;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 100px;
+}
+.Perfect-fit h3{
+    color: #363958 ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.Perfect-fit p{
+    color: #3E3E3E;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    height: 530px;
+    background-color: grey;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+footer h1,p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+footer h1{
+    color: #363958;
+    font-size: 45px;
+    font-weight: bold;
+}
+footer p{
+    font-size: 20px;
+}
+.footer-first-div{
+    position: relative;
+    top: 70px;
+}
+@media (max-width:768px)
+{
+    .contact{
+        margin: 0 auto;
+    }
+    .Name{
+        width: 400px;
+        height: 60px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    #Email,#Password{
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        margin: 0 auto;
+    }
+    #area{
+        width: 400px;
+        height: 120px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    .submit{
+        margin: 0 auto;
+        height: 60px;
+        width: 150px;
+        border-radius: 10px;
+        background-color: red;
+    }
+
+}
+    
+@media (min-width:768px)
+{
+    .contact{
+        margin: 0 auto;
+    }
+    .Name{
+        width: 620px;
+        height: 60px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    #area{
+        width: 620px;
+        height: 120px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    .submit{
+        margin: 0 auto;
+        height: 60px;
+        width: 150px;
+        border-radius: 10px;
+        background-color: red;
+    }
+    #Email,#Password{
+        width: 300px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+
+}
+@media (min-width:1200px){
+    .nike-description{
+        margin-left: 130px;
+    }
+    .card-img{
+        width: 311px;
+        height: 311px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        margin: 20px auto;
+    }
+    #second-img{
+        width: 236px;
+        height: 262px;
+        margin-left: 40px;
+        margin-top: 30px;
+    
+    }
+    #third-img{
+        width: 283px;
+        height: 288px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .slip-on {
+        width: 311px;
+        height: 351px;
+    }
+    .slip-on img{
+        width: 296px;
+        height: 292px;
+        margin-top: 25px;
+        
+    }
+    .XMLID img{
+        height: 320px;
+    }
+
+}
