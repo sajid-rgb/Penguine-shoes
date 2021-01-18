@@ -95,6 +95,7 @@ footer{
     background-color: grey;
     margin-bottom: 0px;
     padding: 0px;
+    max-width: 100%;
 }
 footer h1,p{
     text-align: center;
