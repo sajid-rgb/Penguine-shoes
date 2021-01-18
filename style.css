@@ -24,13 +24,7 @@ header{
     width: 100%;
     margin-top: 100px;
 }
-.nike-description p{
-    font-family: 'Roboto', sans-serif;
-    color: #3E3E3E;
-    font-size: 16px;
-    font-weight: 400;
-    width: 370px;
-}
+
 .button{
     background-image: linear-gradient(blue,rgb(21, 21, 158));
     opacity: .8;
@@ -108,6 +102,13 @@ footer p{
 }
 @media (max-width:768px)
 {
+    .nike-description p{
+        font-family: 'Roboto', sans-serif;
+        color: #3E3E3E;
+        font-size: 16px;
+        font-weight: 400;
+        width: 300px;
+    }
     .brand{
         width: 200px;
         height: 40px;
@@ -157,6 +158,13 @@ footer p{
     
 @media (min-width:768px)
 {
+    .nike-description p{
+        font-family: 'Roboto', sans-serif;
+        color: #3E3E3E;
+        font-size: 16px;
+        font-weight: 400;
+        width: 370px;
+    }
     .brand{
         width: 270px;
         height: 40px;
