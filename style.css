@@ -6,8 +6,6 @@ html,body{
 header{
     background-color: #FFF9F4;
 }
-
-
 .nav-link{
     color: #3C3C3C;
     font-family:  'Roboto', sans-serif ;
@@ -110,6 +108,10 @@ footer p{
 }
 @media (max-width:768px)
 {
+    .brand{
+        width: 200px;
+        height: 40px;
+    }
     
     .Name{
         width: 350px;
@@ -155,6 +157,10 @@ footer p{
     
 @media (min-width:768px)
 {
+    .brand{
+        width: 270px;
+        height: 40px;
+    }
     .contact{
         margin: 0 auto;
     }
